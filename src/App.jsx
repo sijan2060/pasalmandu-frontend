@@ -1,12 +1,5 @@
 import AppRouter from "./routes/AppRouter";
 
 export default function App() {
-  return  <AppRouter />; 
-  // (
-  //   <div className="min-h-screen flex items-center justify-center bg-gray-100">
-  //     <h1 className="text-4xl font-bold text-green-600">
-  //       Pasalmandu Running
-  //     </h1>
-  //   </div>
-  // )
+  return <AppRouter />;
 }
