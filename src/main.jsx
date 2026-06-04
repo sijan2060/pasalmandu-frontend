@@ -6,13 +6,16 @@ import App from "./App";
 import "./index.css";
 
 import { queryClient } from "./app/queryClient";
+import { LanguageProvider } from "./context/LanguageContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
-          <BrowserRouter>
+      <LanguageProvider>
+       <BrowserRouter>
     <App />
-    </BrowserRouter>
+       </BrowserRouter>
+      </LanguageProvider>
     </QueryClientProvider>
 
   </React.StrictMode>
