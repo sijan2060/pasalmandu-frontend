@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { LanguageContext } from "./languageContext";
-
 import en from "../features/localization/locales/en";
 import np from "../features/localization/locales/np";
 
