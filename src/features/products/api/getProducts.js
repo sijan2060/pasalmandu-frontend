@@ -5,6 +5,7 @@ export const getProducts = async (page = 1) => {
         `/products?page=${page}`
 
     );
+    
     return response.data;
 };
 

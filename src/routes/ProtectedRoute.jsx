@@ -1,16 +1,12 @@
 import { Navigate, Outlet } from "react-router-dom";
+import { getUserFromToken } from "../utils/jwt";
 
-
-const fakeUser = {
-    role: "admin", // change this to test roles
-}
-// import { getUserFromToken } from "../utils/jwt";
 
 const ProtectedRoute = ({ allowedRoles}) => {
-    // const token = localStorage.getItem("token");
-    const user = fakeUser;;
+    const token = localStorage.getItem("token");
+    const user = getUserFromToken();;
 
-    if (!user) {
+    if (!token || !user) {
         return <Navigate to="/login" replace />;
     }
 
