@@ -1,5 +1,6 @@
 import { Navigate, Outlet } from "react-router-dom";
 
+
 const fakeUser = {
     role: "admin", // change this to test roles
 }
