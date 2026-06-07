@@ -38,9 +38,10 @@ export default function ProductList() {
                 >
                 Next
                 </button>
-
             </div>
+
         </div>
+        
     );
 
 }
