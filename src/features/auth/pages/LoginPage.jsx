@@ -17,7 +17,6 @@ export default function LoginPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     try {
       const data = await loginMutation.mutateAsync(form);
 

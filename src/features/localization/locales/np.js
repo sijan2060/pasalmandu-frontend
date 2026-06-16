@@ -14,4 +14,5 @@ export default {
   common: {
     language: "भाषा",
   },
+  
 };
