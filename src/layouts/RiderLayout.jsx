@@ -13,6 +13,7 @@ export default function RiderLayout() {
                 <p>Live Tracking</p>
                 <p>Earnings</p>
             </nav>
+            
             </aside>
 
             <main className="flex-1 bg-gray-100 p-6">

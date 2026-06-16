@@ -5,6 +5,7 @@ export default function AuthLayout() {
         <div className="min-h-screen flex items-center justify-center bg-gray-100">
             <Outlet />
         </div>
+        
     );
 }
 

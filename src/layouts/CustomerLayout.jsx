@@ -16,6 +16,8 @@ export default function CustomerLayout() {
                 <Outlet />
                 </main>
         </div>
+        
     );
+
 }
 

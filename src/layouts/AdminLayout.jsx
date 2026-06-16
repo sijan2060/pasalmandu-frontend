@@ -17,6 +17,7 @@ export default function RiderLayout() {
                     </nav>
 
             </aside>
+            
             <main className="flex-1 bg-gray-100 p-6">
                 <Outlet />           
                  </main>
