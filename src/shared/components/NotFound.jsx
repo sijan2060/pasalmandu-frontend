@@ -7,6 +7,8 @@ export default function NotFound() {
             <Link to="/" className="text-green-600 underline">
               Go Home
             </Link>
+
+            
         </div>
     );
 }
