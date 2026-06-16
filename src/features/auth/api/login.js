@@ -5,7 +5,6 @@ export const login = async (credential) => {
         "/auth/login",
         credential
     );
-
 return response.data;
 };
 
